@@ -20,6 +20,10 @@
                 <x-nav-link href="{{ route('students.index') }}" :active="request()->routeIs('students.index')">
                     {{ __('Students') }}
                 </x-nav-link>
+
+                <x-nav-link href="{{ route('tasks.index') }}" :active="request()->routeIs('tasks.index')">
+                    {{ __('Tasks') }}
+                </x-nav-link>
             </div>
 
             <div class="hidden sm:flex sm:items-center sm:ms-6">
